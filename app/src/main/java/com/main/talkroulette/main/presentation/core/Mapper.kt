@@ -1,4 +1,4 @@
-package com.main.talkroulette.main.presentation
+package com.main.talkroulette.main.presentation.core
 
 interface Mapper<R, S> {
 

@@ -1,4 +1,4 @@
-package com.main.notelink.main.presentation
+package com.main.talkroulette.main.presentation.core
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

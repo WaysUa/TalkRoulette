@@ -1,8 +1,10 @@
-package com.main.talkroulette.main.presentation
+package com.main.talkroulette.main.presentation.communication
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
+import com.main.talkroulette.main.presentation.core.Mapper
+import com.main.talkroulette.main.presentation.core.SingleLiveEvent
 
 interface Communication {
 
