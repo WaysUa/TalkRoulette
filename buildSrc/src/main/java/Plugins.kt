@@ -18,6 +18,10 @@ object Plugins {
         const val dependency = "kotlin-kapt"
     }
 
+    object Firebase {
+        const val dependency = "com.google.gms.google-services"
+    }
+
     object Parcelable {
         const val dependency = "kotlin-parcelize"
     }

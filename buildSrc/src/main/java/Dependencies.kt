@@ -27,6 +27,10 @@ object Dependencies {
         const val runtime = "androidx.room:room-runtime:$version"
     }
 
+    object Firebase {
+        const val firestore = "com.google.firebase:firebase-firestore-ktx:24.6.1"
+    }
+
     object UnitTesting {
         object JUnit {
             const val core = "junit:junit:4.13.2"

@@ -3,6 +3,7 @@ plugins {
     id(Plugins.Android.dependency)
     id(Plugins.Kapt.dependency)
     id(Plugins.Parcelable.dependency)
+    id(Plugins.Firebase.dependency)
 }
 
 android {
@@ -60,6 +61,8 @@ dependencies {
     implementation(Dependencies.Navigation.navigationUi)
     // Splash Screen
     implementation(Dependencies.SplashScreen.main)
+    // Firebase
+    implementation(Dependencies.Firebase.firestore)
     // Room
     implementation(Dependencies.Room.core)
     kapt(Dependencies.Room.compiler)
